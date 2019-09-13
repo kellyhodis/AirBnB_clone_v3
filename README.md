@@ -48,7 +48,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [Pretty Printed Flask Cheatsheet](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/301/flask_cheatsheet.pdf) </br >
 [Mozilla documentation on Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) </br >
 [Miguel Grinberg's Blog on Designing a RESTful API with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask) </br >
-[]() </br >
+[REST API Tutorial](https://www.restapitutorial.com/) </br >
 
 ## License
 Public Domain. No copy write protection.
