@@ -32,7 +32,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 ## Additional Resources
 
 [Postman for testing API endpoints](https://www.getpostman.com/products) </br >
-[]() </br >
+[Working with REST API](https://www.youtube.com/watch?v=LooL6_chvN4) </br >
 []() </br >
 []() </br >
 []() </br >
