@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 '''Creates amenities route and returns valid JSON'''
 from api.v1.views import app_views
-from models.state import State
-from models.city import City
 from models.amenity import Amenity
 from models import storage
 from flask import request, jsonify, make_response, abort
