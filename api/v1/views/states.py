@@ -42,7 +42,7 @@ def state_id_route(state_id):
         '''DELETE removes from db the specific state object'''
         storage.delete(states)
         storage.save()
-        return {}, 200
+        return jsonify({}), 200
     if request.method == 'PUT':
         '''PUT updates the state object with name of the state changed'''
         state_put = request.get_json()
