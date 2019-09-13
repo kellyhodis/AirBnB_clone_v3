@@ -29,11 +29,12 @@ class User(BaseModel, Base):
         """initializes user"""
         super().__init__(*args, **kwargs)
 
-    def __setattr__(self, key, value):
+    def __setattr__(self, name, value):
         """Converts the User's password to an md5 hashed object"""
-        if key == "password":
+        if name == "password":
+            value = value.encode("utf-8")
             value = hashlib.md5(value.encode()).hexdigest()
-        super().__setattr__(key, value)
+        super().__setattr__(name, value)
         """
         Change hash method, add cycles, and add salt for security after
         school checker.
