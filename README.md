@@ -29,5 +29,15 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 - Which is the HTTP method to delete resource
 - How to request Rest API
 
+## Additional Resources
+
+[Postman for testing API endpoints](https://www.getpostman.com/products) </br >
+[]() </br >
+[]() </br >
+[]() </br >
+[]() </br >
+[]() </br >
+[]() </br >
+
 ## License
 Public Domain. No copy write protection.
