@@ -37,7 +37,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [SOAP protocol v. REST architectural style](https://www.guru99.com/comparison-between-web-services.html) </br >
 [General project overview of AirBnB Clone](https://www.youtube.com/watch?v=4lNszwDwwqc&list=PLXPx4-IQnxhGQWrUaO7YD9-7yr4eBneXL) </br >
 [For a high level understanding of what REST API is](https://www.youtube.com/watch?v=Q-BpqyOT3a8) </br >
-[]() </br >
+[A home automation project using REST API with Flask and Python](https://www.youtube.com/watch?v=4T5Gnrmzjak) </br >
 
 ## License
 Public Domain. No copy write protection.
