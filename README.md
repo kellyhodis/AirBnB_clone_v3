@@ -45,10 +45,11 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [Modular Applications with Blueprints](https://flask.palletsprojects.com/en/1.1.x/blueprints/) </br >
 [The Pallets Project: Flask](https://palletsprojects.com/p/flask/) </br >
 [Explore Flask Blueprints](http://exploreflask.com/en/latest/blueprints.html) </br >
-[]() </br >
-[]() </br >
-[]() </br >
-[]() </br >
+[Pretty Printed Flask Cheatsheet](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/301/flask_cheatsheet.pdf) </br >
+[Mozilla documentation on Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) </br >
+[Miguel Grinberg's Blog on Designing a RESTful API with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask) </br >
+[REST API Tutorial](https://www.restapitutorial.com/) </br >
+[Using hashlib for hash algorithms in Python](https://docs.python.org/3/library/hashlib.html) </br >
 
 ## License
 Public Domain. No copy write protection.
