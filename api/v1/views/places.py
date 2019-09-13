@@ -24,8 +24,13 @@ def cities_places_route(city_id):
         new_place = request.get_json()
         if not new_place:
             abort(400, 'Not a JSON')
+        if "user_id" not in new_place:
+            abort(400, 'Missing user_id')
         if "name" not in new_place:
             abort(400, 'Missing name')
+        check_user = storage.get("User", new_place['user_id'])
+        if not check_user:
+            abort(404)
         new_place['city_id'] = city_id
         new_place_obj = Place(**new_place)
         new_place_obj.save()
@@ -47,14 +52,14 @@ def places_route(place_id):
         '''DELETE removes from db the specific city object'''
         storage.delete(place)
         storage.save()
-        return {}, 200
+        return jsonify({}), 200
 
     if request.method == 'PUT':
         '''PUT updates the city object with name of the city changed'''
         place_update = request.get_json()
         if place_update is None:
             abort(400, 'Not a JSON')
-        ignore_keys = ['id', 'created_at', 'updated_at']
+        ignore_keys = ['id', 'created_at', 'updated_at', 'user_id', 'city_id']
         for key, value in place_update.items():
             if key not in ignore_keys:
                 setattr(place, key, value)
