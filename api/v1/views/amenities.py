@@ -40,7 +40,7 @@ def amenities_id_route(amenity_id):
     if request.method == 'DELETE':
         storage.delete(amenity)
         storage.save()
-        return {}, 200
+        return jsonify({}), 200
 
     if request.method == 'PUT':
         amenity_update = request.get_json()
