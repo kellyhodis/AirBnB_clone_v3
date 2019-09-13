@@ -6,6 +6,7 @@ from models.user import User
 from models import storage
 from flask import request, jsonify, make_response, abort
 
+
 @app_views.route('/users', methods=['GET', 'POST'])
 def users_route():
     '''Returns a JSON of a user object'''
@@ -26,6 +27,7 @@ def users_route():
         new_user_obj = User(**new_user)
         new_user_obj.save()
         return jsonify(new_user_obj.to_dict()), 201
+
 
 @app_views.route('/users/<user_id>', methods=['GET', 'DELETE', 'PUT'])
 def user_id_route(user_id):
