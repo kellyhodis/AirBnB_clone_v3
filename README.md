@@ -33,7 +33,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 
 [Postman for testing API endpoints](https://www.getpostman.com/products) </br >
 [Working with REST API](https://www.youtube.com/watch?v=LooL6_chvN4) </br >
-[]() </br >
+[How to build a JSON API with Python](https://www.freecodecamp.org/news/build-a-simple-json-api-in-python/) </br >
 []() </br >
 []() </br >
 []() </br >
