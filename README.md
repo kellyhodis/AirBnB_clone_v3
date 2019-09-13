@@ -49,6 +49,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [Mozilla documentation on Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) </br >
 [Miguel Grinberg's Blog on Designing a RESTful API with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask) </br >
 [REST API Tutorial](https://www.restapitutorial.com/) </br >
+[Using hashlib for hash algorithms in Python](https://docs.python.org/3/library/hashlib.html) </br >
 
 ## License
 Public Domain. No copy write protection.
