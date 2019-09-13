@@ -30,3 +30,10 @@ def page_not_found(e):
 if __name__ == '__main__':
     app.run(host=getenv('HBNB_API_HOST'), port=int(getenv('HBNB_API_PORT')),
             threaded=True)
+'''
+To test CORS, run:
+$ curl -X GET http://0.0.0.0:5000/api/v1/cities/
+1da255c0-f023-4779-8134-2b1b40f87683 -vvv
+
+You will see this HTTP Response Header: < Access-Control-Allow-Origin: 0.0.0.0
+'''
