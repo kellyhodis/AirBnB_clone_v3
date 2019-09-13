@@ -42,7 +42,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [API Development Tool: Swagger](https://swagger.io/) </br >
 [API Development Tool: Flassger](https://github.com/flasgger/flasgger) </br >
 [Testing Flask Applications](https://flask.palletsprojects.com/en/1.1.x/testing/) </br >
-[]() </br >
+[Modular Applications with Blueprints](https://flask.palletsprojects.com/en/1.1.x/blueprints/) </br >
 []() </br >
 []() </br >
 
