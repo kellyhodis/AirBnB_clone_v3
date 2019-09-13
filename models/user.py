@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """ holds class User"""
 import models
 from models.base_model import BaseModel, Base
@@ -29,11 +29,13 @@ class User(BaseModel, Base):
         """initializes user"""
         super().__init__(*args, **kwargs)
 
-    def __setattr__(self, key, value):
-        """sets the key to user's password to an md5 obj"""
-        if key == "password":
+    def __setattr__(self, name, value):
+        """Converts the User's password to an md5 hashed object"""
+        if name == "password":
+            value = value.encode("utf-8")
             value = hashlib.md5(value.encode()).hexdigest()
-        super().__setattr__(key, value)
-    """
-    Change hash method, add cycles, and add salt for security
-    """
+        super().__setattr__(name, value)
+        """
+        Change hash method, add cycles, and add salt for security after
+        school checker.
+        """
