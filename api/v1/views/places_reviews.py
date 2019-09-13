@@ -24,8 +24,13 @@ def places_reviews_route(place_id):
         new_review = request.get_json()
         if not new_review:
             abort(400, 'Not a JSON')
-        if "name" not in new_review:
-            abort(400, 'Missing name')
+        if "user_id" not in new_review:
+            abort(400, 'Missing user_id')
+        if "text" not in new_review:
+            abort(400, 'Missing text')
+        check_user = storage.get("User", new_review['user_id'])
+        if not check_user:
+            abort(404)
         new_review['place_id'] = place_id
         new_review_obj = Place(**new_review)
         new_review_obj.save()
@@ -47,14 +52,14 @@ def reviews_route(review_id):
         '''DELETE removes from db the specific city object'''
         storage.delete(review)
         storage.save()
-        return {}, 200
+        return jsonify({}), 200
 
     if request.method == 'PUT':
         '''PUT updates the city object with name of the city changed'''
         review_update = request.get_json()
         if review_update is None:
             abort(400, 'Not a JSON')
-        ignore_keys = ['id', 'created_at', 'updated_at']
+        ignore_keys = ['id', 'created_at', 'updated_at', 'user_id', 'place_id']
         for key, value in review_update.items():
             if key not in ignore_keys:
                 setattr(review, key, value)
