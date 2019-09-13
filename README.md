@@ -40,7 +40,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [A home automation project using REST API with Flask and Python](https://www.youtube.com/watch?v=4T5Gnrmzjak) </br >
 [History and use of CORS](https://www.youtube.com/watch?v=JVZIhCVFJ9c) </br >
 [API Development Tool: Swagger](https://swagger.io/) </br >
-[]() </br >
+[API Development Tool: Flassger](https://github.com/flasgger/flasgger) </br >
 []() </br >
 []() </br >
 []() </br >
