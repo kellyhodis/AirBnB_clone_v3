@@ -41,7 +41,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [History and use of CORS](https://www.youtube.com/watch?v=JVZIhCVFJ9c) </br >
 [API Development Tool: Swagger](https://swagger.io/) </br >
 [API Development Tool: Flassger](https://github.com/flasgger/flasgger) </br >
-[]() </br >
+[Testing Flask Applications](https://flask.palletsprojects.com/en/1.1.x/testing/) </br >
 []() </br >
 []() </br >
 []() </br >
