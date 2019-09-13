@@ -36,4 +36,10 @@ $ curl -X GET http://0.0.0.0:5000/api/v1/cities/
 1da255c0-f023-4779-8134-2b1b40f87683 -vvv
 
 You will see this HTTP Response Header: < Access-Control-Allow-Origin: 0.0.0.0
+
+To test page_not_found run:
+$ curl -X GET http://0.0.0.0:5000/api/v1/nop
+{
+  "error": "Not found"
+}
 '''
