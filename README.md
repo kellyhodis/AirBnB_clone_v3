@@ -34,7 +34,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [Postman for testing API endpoints](https://www.getpostman.com/products) </br >
 [Working with REST API](https://www.youtube.com/watch?v=LooL6_chvN4) </br >
 [How to build a JSON API with Python](https://www.freecodecamp.org/news/build-a-simple-json-api-in-python/) </br >
-[]() </br >
+[SOAP protocol v. REST architectural style](https://www.guru99.com/comparison-between-web-services.html) </br >
 []() </br >
 []() </br >
 []() </br >
