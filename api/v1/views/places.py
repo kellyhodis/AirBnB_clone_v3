@@ -2,7 +2,7 @@
 '''Creates places route and returns valid JSON'''
 from api.v1.views import app_views
 from models.city import City
-from models.places import Place
+from models.place import Place
 from models import storage
 from flask import request, jsonify, make_response, abort
 
