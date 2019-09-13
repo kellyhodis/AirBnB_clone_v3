@@ -36,7 +36,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [How to build a JSON API with Python](https://www.freecodecamp.org/news/build-a-simple-json-api-in-python/) </br >
 [SOAP protocol v. REST architectural style](https://www.guru99.com/comparison-between-web-services.html) </br >
 [General project overview of AirBnB Clone](https://www.youtube.com/watch?v=4lNszwDwwqc&list=PLXPx4-IQnxhGQWrUaO7YD9-7yr4eBneXL) </br >
-[]() </br >
+[For a high level understanding of what REST API is](https://www.youtube.com/watch?v=Q-BpqyOT3a8) </br >
 []() </br >
 
 ## License
