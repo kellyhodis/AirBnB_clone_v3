@@ -32,7 +32,6 @@ class User(BaseModel, Base):
     def __setattr__(self, name, value):
         """Converts the User's password to an md5 hashed object"""
         if name == "password":
-            value = value.encode("utf-8")
             value = hashlib.md5(value.encode()).hexdigest()
         super().__setattr__(name, value)
         """
