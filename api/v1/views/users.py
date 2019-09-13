@@ -19,8 +19,10 @@ def users_route():
         new_user = request.get_json()
         if new_user is None:
             abort(400, 'Not a JSON')
-        if "name" not in new_user:
-            abort(400, 'Missing name')
+        if "email" not in new_user:
+            abort(400, 'Missing email')
+        if "password" not in new_user:
+            abort(400, 'Missing password')
         new_user_obj = User(**new_user)
         new_user_obj.save()
         return jsonify(new_user_obj.to_dict()), 201
@@ -31,15 +33,17 @@ def user_id_route(user_id):
     user = storage.get("User", user_id)
     if user is None:
         abort(404)
+    if request.method == 'GET':
+        return jsonify(user.to_dict())
     if request.method == 'DELETE':
         storage.delete(user)
         storage.save()
-        return {}, 200
+        return jsonify({}), 200
     if request.method == 'PUT':
         user_update = request.get_json()
         if user_update is None:
             abort(400, 'Not a JSON')
-        ignore_keys = ['id', 'created_at', 'updated_at']
+        ignore_keys = ['id', 'email', 'created_at', 'updated_at']
         for key, val in user_update.items():
             if key not in ignore_keys:
                 setattr(user, key, val)
