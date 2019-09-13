@@ -45,9 +45,9 @@ def cities_route(city_id):
 
     if request.method == 'DELETE':
         '''DELETE removes from db the specific city object'''
-        storage.delete(city)
+        city.delete()
         storage.save()
-        return {}, 200
+        return jsonify({}), 200
 
     if request.method == 'PUT':
         '''PUT updates the city object with name of the city changed'''
