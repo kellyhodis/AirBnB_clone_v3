@@ -46,7 +46,7 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [The Pallets Project: Flask](https://palletsprojects.com/p/flask/) </br >
 [Explore Flask Blueprints](http://exploreflask.com/en/latest/blueprints.html) </br >
 [Pretty Printed Flask Cheatsheet](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/301/flask_cheatsheet.pdf) </br >
-[]() </br >
+[Mozilla documentation on Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) </br >
 []() </br >
 []() </br >
 
