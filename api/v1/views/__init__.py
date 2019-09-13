@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Blueprint instance declaration """
+""" Blueprint instance declaration
+"""
 from flask import Blueprint
 
 
