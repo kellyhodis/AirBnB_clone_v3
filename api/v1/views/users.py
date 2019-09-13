@@ -2,7 +2,7 @@
 """ This is a module that defines the users view
 """
 from api.v1.views import app_views
-from models.state import User
+from models.user import User
 from models import storage
 from flask import request, jsonify, make_response, abort
 
