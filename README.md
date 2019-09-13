@@ -44,6 +44,10 @@ Cynthia Dominguez - [Github](https://github.com/cynergist) / [Twitter](https://t
 [Testing Flask Applications](https://flask.palletsprojects.com/en/1.1.x/testing/) </br >
 [Modular Applications with Blueprints](https://flask.palletsprojects.com/en/1.1.x/blueprints/) </br >
 [The Pallets Project: Flask](https://palletsprojects.com/p/flask/) </br >
+[Explore Flask Blueprints](http://exploreflask.com/en/latest/blueprints.html) </br >
+[]() </br >
+[]() </br >
+[]() </br >
 []() </br >
 
 ## License
